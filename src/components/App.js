@@ -10,8 +10,8 @@ export default React.createClass({
   },
   render() {
     var body = (<ContactList />)
-    
-    if(this.props.children) {
+
+    if (this.props.children) {
       body = this.props.children;
     }
 
